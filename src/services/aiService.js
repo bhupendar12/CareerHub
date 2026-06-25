@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://careerhub-production-e83d.up.railway.app/api/ai";
+const API_URL = "https://careerhub-l3jk.onrender.com";
 
 export const analyzeResume = async (formData) => {
   try {
