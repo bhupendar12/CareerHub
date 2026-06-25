@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "https://careerhub-production-e83d.up.railway.app/api/applications";
+  "https://careerhub-l3jk.onrender.com";
 
 const getToken = () => {
   return localStorage.getItem("token");
