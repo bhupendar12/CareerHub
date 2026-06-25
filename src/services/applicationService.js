@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "https://careerhub-l3jk.onrender.com";
+  "https://careerhub-l3jk.onrender.com/api/applications";
 
 const getToken = () => {
   return localStorage.getItem("token");
