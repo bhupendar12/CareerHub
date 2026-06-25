@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Calendar Dark Mode */
+.dark .react-calendar {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.dark .react-calendar__navigation button {
+  color: white;
+}
+
+.dark .react-calendar__month-view__weekdays {
+  color: #cbd5e1;
+}
+
+.dark .react-calendar__tile {
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.dark .react-calendar__tile:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+.dark .react-calendar__tile--active {
+  background: #9333ea !important;
+  color: white !important;
+}
+
+.dark .react-calendar__month-view__days__day--neighboringMonth {
+  color: #64748b;
+}
+
+.dark .react-calendar__month-view__days__day--weekend {
+  color: #f87171;
+}
+
+.dark .react-calendar__navigation button:hover {
+  background: #334155;
+  border-radius: 10px;
+}
