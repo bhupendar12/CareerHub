@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://careerhub-l3jk.onrender.com";
+const API_URL = "https://careerhub-l3jk.onrender.com/api/ai";
 
 export const analyzeResume = async (formData) => {
   try {
