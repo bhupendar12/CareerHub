@@ -1,4 +1,4 @@
-const API_URL = "https://careerhub-production-e83d.up.railway.app/api/auth";
+const API_URL = "https://careerhub-l3jk.onrender.com";
 
 export const registerUser = async (userData) => {
   const response = await fetch(
